@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import { useAuth } from '../../../hooks/useAuth';
-import { FiArrowLeft } from 'react-icons/fi';
 import Hamburger from '../hamburger/Hamburger';
+import { IoArrowBack } from 'react-icons/io5';
 
 const Header = ({ backLink }) => {
 	/*TODO: React router useHistory */
@@ -12,7 +12,7 @@ const Header = ({ backLink }) => {
 	return (
 		<header className={styles.header}>
 			<button onClick={() => {}}>
-				<FiArrowLeft />
+				<IoArrowBack />
 			</button>
 			{/*User profile */}
 			<Hamburger />

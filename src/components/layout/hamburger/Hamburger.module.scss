@@ -11,7 +11,16 @@
 		cursor: pointer;
 	}
 
+	> button {
+		font-size: 30px;
+
+		> svg > path {
+			fill: #fff;
+		}
+	}
+
 	.menu {
+		color: #000; // optional
 		position: absolute;
 		top: calc(100% + 8px);
 		right: 0;
